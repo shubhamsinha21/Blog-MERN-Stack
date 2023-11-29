@@ -3,20 +3,20 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 
-import Layout from './components/Layout';
-import ErrorPage from './pages/ErrorPage';
-import Home from './pages/Home';
-import PostDetail from './pages/PostDetail';
-import Register from './pages/Register';
-import Login from './pages/Login';
-import UserProfile from './pages/UserProfile';
-import CreatePost from './pages/CreatePost';
-import EditPost from './pages/EditPost';
-import CategoryPost from './pages/CategoryPost';
-import AuthorPosts from './pages/AuthorPost';
-import Authors from './pages/Authors';
-import Dashboard from './pages/Dashboard';
-import Logout from './pages/Logout';
+import Layout from './components/Layout'
+import ErrorPage from './pages/ErrorPage'
+import Home from './pages/Home'
+import PostDetail from './pages/PostDetail'
+import Register from './pages/Register'
+import Login from './pages/Login'
+import UserProfile from './pages/UserProfile'
+import CreatePost from './pages/CreatePost'
+import EditPost from './pages/EditPost'
+import CategoryPost from './pages/CategoryPost'
+import AuthorPosts from './pages/AuthorPost'
+import Authors from './pages/Authors'
+import Dashboard from './pages/Dashboard'
+import Logout from './pages/Logout'
 
 
 const router = createBrowserRouter([
